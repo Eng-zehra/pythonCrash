@@ -1,0 +1,11 @@
+# fullName =input("Please Enter Your Name and then i will show your last name : ")
+# nameList=fullName.split(" ")
+# print(nameList[-1].capitalize())
+# print("Asc " + name +" Your password is " , passwod , "its length is " , len(passwod) , " Letter Long" )
+name=input("Enter Your Name: ")
+passwod =input("Enter your password:")
+hidden_pass="*" *len(passwod)
+if(len(passwod)>8):
+    print("Strong password")
+    print(f"Asc {name} your password is {hidden_pass} its length is {len(passwod)}")
+else:(print("week password"))
