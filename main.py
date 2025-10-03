@@ -30,8 +30,8 @@
 #funtions
 # print(name.title())
 # print(len(name.replace("zahra","Aamina")))
-toBinary ="123347"
-print(min(toBinary))
-print(toBinary.count("3"))
+# toBinary ="123347"
+# print(min(toBinary))
+# print(toBinary.count("3"))
 
 
